@@ -1,0 +1,140 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    line-height: 1.7em;
+}
+.l-box {
+    padding: 1em;
+}
+.header {
+    margin: 0 0;
+}
+.header .pure-menu {
+    padding: 0.5em;
+}
+.header .pure-menu li a:hover,
+.header .pure-menu li a:focus {
+    background: none;
+    border: none;
+    color: #aaa;
+}
+body .primary-button {
+    background: white;
+    color: #fff;
+}
+.splash {
+    margin: 2em auto 0;
+    padding: 3em 0.5em;
+    background: #eee;
+}
+.splash .splash-head {
+    font-size: 300%;
+    margin: 0em 0;
+    line-height: 1.2em;
+}
+.splash .splash-subhead {
+    color: #999;
+    font-weight: 300;
+    line-height: 1.4em;
+}
+.splash .primary-button {
+    font-size: 150%;
+}
+.content .content-subhead {
+    color: #999;
+    padding-bottom: 0.3em;
+    text-transform: uppercase;
+    margin: 0;
+    border-bottom: 2px solid #eee;
+    display: inline-block;
+}
+.content .content-ribbon {
+    margin: 3em;
+    border-bottom: 1px solid #a5d6d2;
+}
+.ribbon {
+    background: #eee;
+    text-align: center;
+    padding: 2em;
+    color: #999;
+}
+.ribbon h2 {
+    display: inline;
+    font-weight: normal;
+}
+.footer {
+    background: #111;
+    color: #666;
+    text-align: center;
+    padding: 1em;
+    font-size: 80%;
+}
+
+.logo{
+  position: relative;
+  top: 70px;
+  left: 10px;
+  border-radius:100%;
+  width:350px;
+  height:auto;
+}
+
+.capa{
+position: relative;
+top: 100px;
+left: 65px;
+width:700px;
+height:auto;
+}
+
+.Servicos{
+font-size:50px;
+font-family: times;
+position: relative;
+top: 50px;
+left: 280px;
+}
+
+.Barra{
+position: relative;
+top: 00px;
+border-color: grey;
+border-top-width: 1spx;
+border-right-width: 0px;
+border-bottom-width: 0px;
+border-left-width: 0px;
+}
+
+.texto{
+  color:#097b7c;
+font-family: 'Montserrat', sans-serif;
+}
+.container-fluid{
+      background-color:white;
+    opacity: 0.7;
+}
+#subirTopo{
+    text-decoration: none;
+
+    
+    bottom: 30px;
+    right: 30px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: fixed;
+    border: 0;
+    font-family: sans-serif;
+    opacity: .8;
+}
+#subirTopo:hover {
+    opacity:1;
+    }

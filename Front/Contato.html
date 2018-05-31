@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Simple MOOC - Uma simples plataforma de ensino a distância" />
+    <title>Simple MOOC</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
+    <link rel="stylesheet" href="css/Contato-styles.css" />
+    <head><meta http-equiv="Content-Language" content="pt-br">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+
+jQuery("#subirTopo").hide();
+
+jQuery('a#subirTopo').click(function () {
+         jQuery('body,html').animate({
+           scrollTop: 0
+         }, 800);
+        return false;
+   });
+
+jQuery(window).scroll(function () {
+         if (jQuery(this).scrollTop() > 100) {
+            jQuery('#subirTopo').fadeIn();
+         } else {
+            jQuery('#subirTopo').fadeOut();
+         }
+     });
+});
+</script>
+  </head>
+</head>
+<body background="bg3.jpg" style="background: linear-gradient(rgba(141, 132, 132, 0.5), rgba(155, 141, 141, 0.5) ), url(bg3.jpg) ;width: 100%; background-repeat:round; -moz-background-size: cover;
+-o-background-size: cover; -webkit-background-size: cover; background-size: cover;">>
+
+
+<!--Menu -->
+<div class="content">
+    <div class="header">
+        <div class="pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal">
+          <ul>
+              <li><a href="Quem somos.html">Início</a></li>
+              <li><a href="Portfólio.html">Portfólio</a></li>
+              <li><a href="Contato.html">Contato</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--Foto e Logo-->
+<div class="container-fluid">
+<div class="container">
+  <div class="row">
+
+    <div clas="col-md-06">
+      <img class="logo"; src="https://i.imgur.com/QsfCj8S.jpg">
+    </div>
+    <div class="cold-md-06">
+      <img class="capa"; src="http://www.quikheal.com/images/dogs_cats_1.png">
+    </div>
+</div></div></br></br></br>
+</div>
+
+<!--Linha-->
+<div>
+<hr class="Barra" style="margin-top:-1px"></br></br>
+
+<!--Área de contato-->
+  <div class="row">
+    <div class="col-md-1 col-md-offset-1"></div>
+    <div class="col-md-6 col-md-offset-6">
+      <p class="texto"><strong>CONTATE-NOS</strong></p>
+    </div>
+    <div class="col-md-06">
+        <p class="texto"><strong>LOCALIZE-NOS</strong></p>
+    </div>
+  </div></br>
+
+  <!--script do email e do mapa-->
+  <div class="row">
+    <div class="col-md-1 col-md-offset-1"></div>
+      <div class="col-md-6 col-md-offset-6">
+
+  <!--Email-->
+    <a style="background-color: red"; id="foxyform_embed_link_187301" href="http://br.foxyform.com/">foxyform</a>
+    <script style="background-color: red"; type="text/javascript">
+    (function(d, t){
+       var g = d.createElement(t),
+           s = d.getElementsByTagName(t)[0];
+       g.src = "http://br.foxyform.com/js.php?id=187301&sec_hash=458ebdcbc29&width=350px";
+       s.parentNode.insertBefore(g, s);
+    }(document, "script"));
+    </script>
+    </div>
+      <div class="col-md-06">
+        <!-- Mapa -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.7158966616807!2d-35.24054598570955!3d-5.75397269583001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b3aa418d0b2cb7%3A0xdf4be042be3b809c!2sAv.+Dr.+Jo%C3%A3o+Medeiros+Filho%2C+3585+-+2+-+Igap%C3%B3%2C+Natal+-+RN!5e0!3m2!1spt-PT!2sbr!4v1527620607475" width="450" height="330" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+</div>
+
+<!--Direitos autorais-->
+<div class="footer">
+    ©EJECT 2018
+    <a id="subirTopo">
+        <img src="subir.png" style={width:5px !important}
+        </a>
+</div>
+</div>
+
+
+</body>
+</html>
