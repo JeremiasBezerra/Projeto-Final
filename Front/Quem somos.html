@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Simple MOOC - Uma simples plataforma de ensino a distância" />
+    <title>Simple MOOC</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
+    <link rel="stylesheet" href="css/Quem somos-styles.css" />
+    <head><meta http-equiv="Content-Language" content="pt-br">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/slideshow.css" />
+    <script src="script/slideshow.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+
+jQuery("#subirTopo").hide();
+
+jQuery('a#subirTopo').click(function () {
+         jQuery('body,html').animate({
+           scrollTop: 0
+         }, 800);
+        return false;
+   });
+
+jQuery(window).scroll(function () {
+         if (jQuery(this).scrollTop() > 100) {
+            jQuery('#subirTopo').fadeIn();
+         } else {
+            jQuery('#subirTopo').fadeOut();
+         }
+     });
+});
+</script>
+</head>
+</head>
+<body background="bg3.jpg" style="background: linear-gradient(rgba(141, 132, 132, 0.5), rgba(155, 141, 141, 0.5) ), url(bg3.jpg) ;width: 100%; background-repeat:round; -moz-background-size: cover;
+-o-background-size: cover; -webkit-background-size: cover; background-size: cover;">
+
+<!--Menu -->
+<div class="content">
+    <div class="header">
+        <div class="pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal">
+          <ul>
+            <li><a href="Quem somos.html">Início</a></li>
+            <li><a href="Portfólio.html">Portfólio</a></li>
+            <li><a href="Contato.html">Contato</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--Foto e Logo-->
+<div class="container-fluid">
+<div class="container">
+  <div class="row">
+    <div clas="col-md-06">
+      <img class="logo"; src="https://i.imgur.com/QsfCj8S.jpg">
+    </div>
+    <div class="cold-md-06">
+      <img class="capa"; src="http://www.quikheal.com/images/dogs_cats_1.png">
+    </div>
+</div></div></br></br></br>
+
+<!--Linha-->
+</div>
+</div>
+<div >
+<hr class="Barra" style="margin-top:-1px">
+
+<p id="Centro-Titulo"><strong>QUEM SOMOS:</strong></p>
+<!--Descrição-->
+<div class="container">
+  <div class="row">
+    <p id="Centro-Texto"><Uma empresa destinada a oferecer o melhor tratamento para seu bichinho, com serviços e produtos de qualidade, atendimento diferenciado à disposição 24h por dia, ambiente agradável e toda a infraestrutura necessária para o seu pet nas áreas de saúde, estética e lazer. Oferecendo consultas, exames, cirurgias, internação, serviços especializados de estética e higiene, táxi dog preparado especialmente para levar e trazer o seu animal com segurança e comodidade, além de uma grande variedade de produtos, incluindo rações, medicamentos e diversos acessórios.</p>
+  </div>
+</div>
+
+<!--Scrpit das fotos-->
+<figure>
+    <span class="trs next"></span>
+    <span class="trs prev"></span>
+
+    <div id="slider">
+      <a href="#" class="trs"><img src="https://i.imgur.com/LRMEhJX.png" height="300"/></a>
+      <a href="#" class="trs"><img src="https://i.imgur.com/1NPxVzx.png" height="300"/></a>
+      <a href="#" class="trs"><img src="https://i.imgur.com/l7wPc5B.png" height="300"/></a>
+      <a href="#" class="trs"><img src="https://i.imgur.com/yL7Xekl.png" height="300"/></a>
+      <a href="#" class="trs"><img src="https://i.imgur.com/iN1tRZW.png" height="300"/></a>
+    </div>
+
+    <figcaption></figcaption>
+  </figure>
+
+<!--Direitos autorais-->
+<div class="footer">
+    ©EJECT 2018
+    <a id="subirTopo">
+        <img src="subir.png" style={width:5px !important}
+        </a>
+</div>
+</div>
+
+</body>
+</html>
