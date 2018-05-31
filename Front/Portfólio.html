@@ -11,61 +11,43 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-<script type="text/javascript">
-jQuery(document).ready(function(){
-
-jQuery("#subirTopo").hide();
-
-jQuery('a#subirTopo').click(function () {
-         jQuery('body,html').animate({
-           scrollTop: 0
-         }, 800);
-        return false;
-   });
-
-jQuery(window).scroll(function () {
-         if (jQuery(this).scrollTop() > 100) {
-            jQuery('#subirTopo').fadeIn();
-         } else {
-            jQuery('#subirTopo').fadeOut();
-         }
-     });
-});
-</script>
 </head>
 </head>
-<body background="bg3.jpg" style="background: linear-gradient(rgba(141, 132, 132, 0.5), rgba(155, 141, 141, 0.5) ), url(bg3.jpg) ;width: 100%; background-repeat:round; -moz-background-size: cover;
--o-background-size: cover; -webkit-background-size: cover; background-size: cover;">
+<body style="background-color:white">
 
 <!--Menu -->
-<div class="content">
-    <div class="header">
-        <div class="pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal">
-          <ul>
-            <li><a href="Quem somos.html">Início</a></li>
-            <li><a href="Portfólio.html">Portfólio</a></li>
-            <li><a href="Contato.html">Contato</a></li>
-            </ul>
-        </div>
+<nav style="background:url(https://i.imgur.com/rth7VRu.png); width:100%"; class="navbar navbar-expand-lg navbar-light bg-light">
+  <a style="position:relative; top:-5px;" class="navbar-brand">PetShow</a>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <div class="col-md-1 col-md-offset-1"></div>
+      <div class="col-md-01"> <img src="https://i.imgur.com/iA9t7tQ.png" height="30px" width="30px"/></div>
+      <a style="position:relative; top:-5px;" class="nav-item nav-link active" href="Quem somos.html"> Inicio <span class="sr-only">(current)</span></a>
+      <div class="col-md-1 col-md-offset-1"></div>
+      <div class="col-md-01"> <img src="https://i.imgur.com/5pwFzRL.png" height="30px" width="30px"/></div>
+      <a style="position:relative; top:-5px;" class="nav-item nav-link active" href="Portfólio.html">Portfólio<span class="sr-only">(current)</span></a>
+      <div class="col-md-1 col-md-offset-1"></div>
+      <div class="col-md-01"> <img src="https://i.imgur.com/J6XWMGU.png" height="30px" width="30px"/></div>
+      <a style="position:relative; top:-5px;" class="nav-item nav-link active" href="Contato.html">Contato<span class="sr-only">(current)</span></a>
     </div>
-</div>
+  </div>
+</nav>
+<hr class="Barra2">
 
 <!--Foto e Logo-->
 <div class="container">
   <div class="row">
     <div clas="col-md-06">
-      <img class="logo"; src="https://i.imgur.com/QsfCj8S.jpg">
+      <img class="logo"; src="https://i.imgur.com/9Y7pLwU.jpg">
     </div>
     <div class="cold-md-06">
       <img class="capa"; src="http://www.quikheal.com/images/dogs_cats_1.png">
     </div>
-</div></div></br></br></br>
+</div></div>
 
 <!--Linha-->
-<div class="container-fluid">
-<hr class="Barra" style="margin-top:-1px">
+<div style="background:url(https://i.imgur.com/rth7VRu.png); width:100%">
+<hr class="Barra">
 
 <!--Portfólio-->
 <div class="content">
@@ -140,9 +122,6 @@ jQuery(window).scroll(function () {
 <!--Direitos autorais-->
 <div class="footer">
     ©EJECT 2018
-    <a id="subirTopo">
-            <img src="subir.png" style={width:5px !important}
-            </a>
 </div>
 </div>
 
