@@ -21,7 +21,6 @@ body {
     background: none;
     border: none;
     color: #aaa;
-    
 }
 body .primary-button {
     background: white;
@@ -79,9 +78,10 @@ body .primary-button {
   color: black;
 }
 
+
 .logo{
   position: relative;
-  top: 70px;
+  top: -10px;
   left: 10px;
   border-radius:100%;
   width:350px;
@@ -90,7 +90,7 @@ body .primary-button {
 
 .capa{
 position: relative;
-top: 100px;
+top: 30px;
 left: 65px;
 width:700px;
 height:auto;
@@ -114,9 +114,19 @@ border-bottom-width: 0px;
 border-left-width: 0px;
 }
 
+.Barra2{
+position: relative;
+top: -16px;
+border-color: grey;
+border-top-width: 1spx;
+border-right-width: 0px;
+border-bottom-width: 0px;
+border-left-width: 0px;
+}
+
 #Centro-Titulo{
   font-size: 70px;
-  color:#104E8B;
+  color:#097b7c;
 font-family: 'Montserrat', sans-serif;
   text-align: center;
   top: 50%;
@@ -130,31 +140,5 @@ font-family: 'Montserrat', sans-serif;
     text-align: center;
     top: 50%;
     left: 50%;
-    color:#104E8B;
+    background-color:none;
 }
-.container-fluid{
-    background-color:white;
-    opacity: 0.8;
-}
-#subirTopo{
-    text-decoration: none;
-
-    
-    bottom: 30px;
-    right: 30px;
-    color: #fff;
-    text-align: center;
-    cursor: pointer;
-    padding: 15px;
-    font-size: 15px;
-    font-weight: bold;
-    text-transform: uppercase;
-    position: fixed;
-    border: 0;
-    font-family: sans-serif;
-    opacity: .8;
-}
-#subirTopo:hover {
-    opacity:1;
-    }
-    
