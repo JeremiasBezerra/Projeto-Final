@@ -21,7 +21,6 @@ body {
     background: none;
     border: none;
     color: #aaa;
-    
 }
 body .primary-button {
     background: white;
@@ -79,22 +78,43 @@ body .primary-button {
   color: black;
 }
 
-.logo{
-  position: relative;
-  top: 70px;
-  left: 10px;
-  border-radius:100%;
-  width:350px;
-  height:auto;
+
+.logo{position: relative; top: -02%;left: 5%;border-radius:100%;width:350px;height:auto;}
+.capa{position: relative; top: 06%;left:10%;width:100%; height:auto;}
+
+
+@media screen and (max-width: 768px) {
+  .capa{
+    width:80%;height:auto;
+    margin-top: : auto;
+    margin-bottom: : auto;
+    margin-left: +00%;
+    }
+  .logo{
+    width:200px;height:auto;
+    margin-top: : auto;
+    margin-bottom: : auto;
+    margin-left: 55%;
+  }
+
+    #Centro-Titulo{
+        text-align: center!important;
+        font-size: 40px!important;
+    }
+
+    #Centro-Texto{
+      text-align: justify!important;
+      font-size: 20px!important;
+    }
+
+
+
+  p, h3{
+    text-align: center;
+    font-size: 15px;
+  }
 }
 
-.capa{
-position: relative;
-top: 100px;
-left: 65px;
-width:700px;
-height:auto;
-}
 
 .Servicos{
 font-size:50px;
@@ -114,9 +134,19 @@ border-bottom-width: 0px;
 border-left-width: 0px;
 }
 
+.Barra2{
+position: relative;
+top: -16px;
+border-color: grey;
+border-top-width: 1spx;
+border-right-width: 0px;
+border-bottom-width: 0px;
+border-left-width: 0px;
+}
+
 #Centro-Titulo{
   font-size: 70px;
-  color:#104E8B;
+  color:#097b7c;
 font-family: 'Montserrat', sans-serif;
   text-align: center;
   top: 50%;
@@ -130,31 +160,44 @@ font-family: 'Montserrat', sans-serif;
     text-align: center;
     top: 50%;
     left: 50%;
-    color:#104E8B;
+    background-color:none;
 }
-.container-fluid{
-    background-color:white;
-    opacity: 0.8;
-}
-#subirTopo{
-    text-decoration: none;
 
-    
-    bottom: 30px;
-    right: 30px;
-    color: #fff;
-    text-align: center;
-    cursor: pointer;
-    padding: 15px;
-    font-size: 15px;
-    font-weight: bold;
-    text-transform: uppercase;
-    position: fixed;
-    border: 0;
-    font-family: sans-serif;
-    opacity: .8;
+@media screen and (max-width: 600px) {
+  .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+
+  }
+  .navbar-brand{
+    display: none!important;
+  }
 }
-#subirTopo:hover {
-    opacity:1;
-    }
+
+.navbar .icon {
+    display: none;
+}
+.navbar {
+    background-image: url(https://i.imgur.com/qQy3tVV.png);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: Black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
     
